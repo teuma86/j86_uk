@@ -1,0 +1,23 @@
+@mixin mobile {
+  @media (max-width: 810px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 810px) {
+    @content;
+  }
+}
+
+@mixin boxDisplay {
+  border: 1px solid #e5e5e5;
+  box-shadow: 2px 2px 2px #e5e5e5;
+}
+
+@mixin getMaxDeviceWidth {
+  max-width: $maxPageWidth;
+  @include mobile {
+    width: 100%;
+  }
+}

@@ -1,0 +1,65 @@
+@import 'variables';
+@import 'mixins/LayoutMixins.scss';
+@import '_reset';
+
+  .container {
+    max-width: 1000px;
+    margin: 9px auto;
+    display: flex;
+    
+    nav {
+      width: 200px;
+      border-right: 1px solid #ccc;
+      
+      ul {
+        li {
+          display:block;
+          padding: 10px;
+          a {
+            font-size: 14px;
+            color: #333;
+            text-decoration: none;
+            &:hover {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      width: 600px;
+      padding: 20px;
+      h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .content {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+    }
+
+    
+  }
+
+  footer {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align:center;
+    
+    color: #ccc;
+    font-style: italic;
+    max-width: 1000px;
+    margin: 20px auto 0 auto;
+    p {
+      font-size:11px;
+    }
+  }
