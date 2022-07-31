@@ -21,8 +21,8 @@ export default function Home() {
   const renderBody = () => {
     return (
       <>
-        <h1>J86</h1>
-        <p>Content coming soon</p>
+        <h1>J86 UK</h1>
+        <p>Another crazy idea</p>
       </>
     )
   };
