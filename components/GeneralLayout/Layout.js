@@ -11,6 +11,7 @@ export default function Layout({ children }) {
         <nav>
           <ul>
             <li><Link href="/"><a>J86 UK</a></Link></li>
+            <li><Link href="/shopdemo"><a>Shop Demo</a></Link></li>
           </ul>
         </nav>
       <main className="layout">
