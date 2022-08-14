@@ -16,8 +16,8 @@
           display:block;
           padding: 10px;
           a {
-            font-size: 14px;
-            color: #333;
+            font-size: 18px;
+            color: #5d5e5e;
             text-decoration: none;
             &:hover {
               color: #000;
@@ -30,20 +30,47 @@
     main {
       width: 600px;
       padding: 20px;
+
+      font-size: $font-standard-size;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #3d3d3d;
+
       h1 {
-        font-size: 24px;
+        color: #3d3d3d;
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        color: #3d3d3d;
+        font-size:26px;
         margin-bottom: 10px;
       }
       p {
-        font-size: 14px;
+        font-size: $font-standard-size;
         line-height: 1.5;
         margin-bottom: 20px;
+        color: #3d3d3d;
       }
-      .content {
-        font-size: 14px;
-        line-height: 1.5;
-        margin-bottom: 20px;
+      ul,
+      ol {
+        li {
+          font-size:$font-standard-size;
+        }
       }
+
+
+        a {
+          font-size: $font-standard-size;
+          color: red;
+          &.externalLink {
+            color: #575f78;
+            &:hover {
+              color: #152969;
+            }
+          }
+        }
+      
     }
 
     

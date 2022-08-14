@@ -12,11 +12,10 @@ export default function Layout({ children }) {
           <ul>
             <li><Link href="/"><a>J86 UK</a></Link></li>
             <li><Link href="/shopdemo"><a>Shop Demo</a></Link></li>
+            <li><Link href="/gitbook"><a>Gitbook</a></Link></li>
           </ul>
         </nav>
-      <main className="layout">
-        {children}
-      </main>
+        { children }
       
     </div>
     <footer>
