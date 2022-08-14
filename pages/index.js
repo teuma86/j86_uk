@@ -7,7 +7,10 @@ export default function Home() {
     <main className='content'>
       <Header titlePrefix={'Another Crazy idea'} />
       <h1>J86 UK</h1>
-        <p>Another crazy idea</p>
+        <p>This site may be the start of a personal profile site.</p>
+        <p>However, the true purpose of this site was so i could play things which are not visible to a website</p>
+        <p>This includes things such as using github, github actions, nginx </p>
+        <p>This is true for most projects listed here.  No fancy code or modules sorry.</p>
     </main>
   )
 }

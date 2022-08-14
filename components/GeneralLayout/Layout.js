@@ -1,14 +1,21 @@
 import PropTypes from 'prop-types';
-import Head from 'next/head';
 import Link from 'next/link';
-
+import Image from 'next/image'
 export default function Layout({ children }) {
-
 
   return (
     <>
     <div className="container">
         <nav>
+          <div className='logo'>
+            <Image
+              src='/j86_logo.png'
+              alt='J86 UK'
+              width={150}
+              height={150}
+
+            />
+          </div>
           <ul>
             <li><Link href="/"><a>J86 UK</a></Link></li>
             <li><Link href="/shopdemo"><a>Shop Demo</a></Link></li>

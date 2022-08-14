@@ -5,7 +5,7 @@ import Head from 'next/head';
 export default function Header({ titlePrefix }) {
   return (
     <Head>
-        <title>{titlePrefix} - J86 UK</title>
+        <title>{ `${titlePrefix} -J86` }</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover' /> 
         <meta name='description' content='J86 UK' />
