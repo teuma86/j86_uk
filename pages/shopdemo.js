@@ -15,7 +15,7 @@ export default function Home() {
         <ul>
           <li>
             <Link href="https://www.shopdemo.co.uk">
-              <a href="" target="_blank" className='externalLink'>
+              <a target="_blank" className='externalLink'>
                 Shop Demp Magento Instance
               </a>
             </Link>
