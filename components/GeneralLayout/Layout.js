@@ -8,13 +8,16 @@ export default function Layout({ children }) {
     <div className="container">
         <nav>
           <div className='logo'>
-            <Image
-              src='/j86_logo.png'
-              alt='J86 UK'
-              width={150}
-              height={150}
-
-            />
+            <Link href="/">
+              <a>
+                <Image
+                  src='/j86_logo.png'
+                  alt='J86 UK'
+                  width={150}
+                  height={150}
+                />
+              </a>
+            </Link>
           </div>
           <ul>
             <li><Link href="/"><a>J86 UK</a></Link></li>
