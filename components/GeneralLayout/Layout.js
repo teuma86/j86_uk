@@ -30,6 +30,7 @@ export default function Layout({ children }) {
     </div>
     <footer>
     <p>&copy; J86 UK</p>
+    <p><i><Link href="https://github.com/teuma86/j86_uk"><a target="_blank">View this site on github</a></Link></i></p>
   </footer>
   </>
   );
